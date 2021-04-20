@@ -5,12 +5,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, Intensive Messenger!"
+    return "Hello! It's Intensive Messenger"
 
 @app.route("/status")
 def status():
     return jsonify({
-        'status':'OK',
+        'status':true,
         'name':'Intensive Messenger',
         'time': datetime.now()
     })
