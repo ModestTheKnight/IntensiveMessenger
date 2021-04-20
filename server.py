@@ -10,7 +10,7 @@ def hello():
 @app.route("/status")
 def status():
     return jsonify({
-        'status':true,
+        'status': True,
         'name':'Intensive Messenger',
         'time': datetime.now()
     })
