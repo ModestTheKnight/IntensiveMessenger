@@ -1,7 +1,7 @@
-print('Intensive MessenGer')
-
 import time
 from datetime import datetime
+
+print('Intensive Messenger')
 
 db = [
     {
